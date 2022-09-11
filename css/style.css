@@ -16,7 +16,7 @@ body{
 }
 
 .navbar{
-    width: 100%;
+    width: 91%;
     height: 60px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2 );
     display: flex;
@@ -79,9 +79,14 @@ body{
     height: 30px;
     border-radius: 10px;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid #2d3436;
     font-size: 11px;
     cursor: pointer;
+}
+
+.btn-here:hover{
+    background-color: #2d3436;
+    color: whitesmoke;
 }
 
 .btn-download{
@@ -93,6 +98,12 @@ body{
     color: whitesmoke;
     border: none;
     cursor: pointer;
+}
+
+.btn-download:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #2d3436;
 }
 
 .model{
@@ -119,7 +130,7 @@ body{
 
 .about img{
     height: 250px;
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .text-about p:first-child{
@@ -140,6 +151,7 @@ body{
     border-radius: 5px;
     margin-right: 10px;
     font-size: 10px;
+    cursor: pointer;
 }
 
 .btn-about-download{
@@ -148,4 +160,116 @@ body{
     border-radius: 5px;
     background-color:  #2d3436;
     color: whitesmoke;
-    }
+    cursor: pointer;
+}
+
+.btn-about-here:hover{
+    background-color: #2d3436;
+    color: whitesmoke;
+}
+
+.btn-about-download:hover{
+    background-color:  transparent;
+    color: black;
+    border: 2px solid #2d3436;
+}
+
+.text-skill{
+    margin: 50px 0 0 12%;
+    line-height: 0px;
+    width: 450px;
+}
+
+.text-skill p:first-child{
+    font-size: 24px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.text-skill p:nth-child(2){
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.text-skill p:nth-child(3){
+    font-size: 14px;
+    line-height: normal;
+}
+
+.card-skill{
+    display: flex;
+    width: 78%;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+
+
+.skill-1,
+.skill-2,
+.skill-3{
+    width: 250px;
+    height: 320px;
+    background-color: #2d3436;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2 );
+    border-radius: 5px;
+}
+
+.skill-1 div,
+.skill-2 div,
+.skill-3 div{
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.skill-1 p:first-of-type,
+.skill-2 p:first-of-type,
+.skill-3 p:first-of-type{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+
+.skill-1 p:nth-last-child(2),
+.skill-2 p:nth-last-child(2),
+.skill-3 p:nth-last-child(2){
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.skill-1 button,
+.skill-2 button,
+.skill-3 button{
+    margin-top: 10px;
+    width: 90px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 12px;
+}
+
+.skill-1 button:hover,
+.skill-2 button:hover,
+.skill-3 button:hover{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    font-size: 12px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
